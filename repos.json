@@ -1,0 +1,6 @@
+{
+	"https://github.com/t3kk/playback.io": 
+	{
+		"script":"/opt/playback.io/test.sh"
+	}
+}
