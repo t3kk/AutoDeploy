@@ -1,0 +1,5 @@
+change repos.json and payload to handle by repo and then event
+
+create an autoconfig that will setup a user and deploy the AutoDeploy server as a service that will run after network startup.
+
+verify message against actual repo for security...
