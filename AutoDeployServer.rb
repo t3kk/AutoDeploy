@@ -6,6 +6,7 @@ config = load()
 #this will start up the servers before we start listening.
 config["repos"].each do |repo|
   puts "Executing startScript for "+repo["name"]
+  #TODO: Replace this with a method to run commands.  Take the dir and/or a list of commands to run afterwards.
   system "cd "+repo["workingDir"]+" && "+repo["startScript"]+" &"
   puts "Done"
 end
