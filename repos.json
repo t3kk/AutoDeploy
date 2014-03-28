@@ -1,6 +1,11 @@
 {
-	"https://github.com/t3kk/playback.io": 
-	{
-		"script":"/opt/playback.io/pullAndDeploy.sh"
-	}
+	"repos":
+	[		
+		{
+	       		"name":"https://github.com/t3kk/playback.io",
+			"workingDir":"/opt/playback.io/",
+			"startScript":"./start.sh",
+			"script":"./pull.sh"
+		}
+	]
 }
